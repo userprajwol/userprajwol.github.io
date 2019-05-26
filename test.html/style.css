@@ -1,0 +1,71 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: lightblue;
+    color: black;
+    margin: 0%;
+}
+h1,h2{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.page-in{
+    background-position: left bottom;
+    
+    background-repeat: repeat-x;
+    float: left;
+}
+.page{
+    width: 100px;
+    margin: 0px auto;
+}
+.main,.header{
+    width: 100px;
+    float: left;
+}
+.header-top{
+    background-image: url(people.jpeg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.header-top h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: normal;
+    line-height: 80px;
+    margin-left: 115px;
+    color: red;
+}
+.header.bottom{
+    background-image: url(people.jpeg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.header-bottom h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: green;
+    margin-left: 27px;
+    margin-top: 93px;
+}
+.nav ul{
+    height: 22px;
+    margin-left: 64px;
+    list-style-type: none;
+}
+.nav
